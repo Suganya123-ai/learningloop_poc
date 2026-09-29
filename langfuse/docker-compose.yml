@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  langfuse-db:
+    image: postgres:15
+    container_name: langfuse-db
+    environment:
+      POSTGRES_USER: langfuse
+      POSTGRES_PASSWORD: langfuse
+      POSTGRES_DB: langfuse
+    volumes:
+      - langfuse_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U langfuse"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse-server:
+    image: langfuse/langfuse:latest
+    container_name: langfuse-server
+    depends_on:
+      langfuse-db:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://langfuse:langfuse@langfuse-db:5432/langfuse
+      NEXTAUTH_SECRET: itops-secret-key-change-in-prod
+      NEXTAUTH_URL: http://localhost:3000
+      LANGFUSE_INIT_ORG_ID: itops-org
+      LANGFUSE_INIT_ORG_NAME: ITOps Agent
+      LANGFUSE_INIT_PROJECT_ID: itops-project
+      LANGFUSE_INIT_PROJECT_NAME: learningloop_agenticai
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: pk-lf-itops-local-key
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: sk-lf-itops-local-secret
+      LANGFUSE_INIT_USER_EMAIL: suganya.selvaraj04@infosys.com
+      LANGFUSE_INIT_USER_NAME: Suganya
+      LANGFUSE_INIT_USER_PASSWORD: itops1234
+      TELEMETRY_ENABLED: "false"
+      LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES: "true"
+
+volumes:
+  langfuse_db_data:

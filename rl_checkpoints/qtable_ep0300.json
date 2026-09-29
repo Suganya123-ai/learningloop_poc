@@ -1,0 +1,4646 @@
+{
+  "q_table": {
+    "(3, 1, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 3.031801870884949,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.6895194993134073,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 1, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 1, 'no_op')": {
+      "no_op": 1.4624348906017577,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 2, 'clear_disk')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 3, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.018
+    },
+    "(0, 2, 3, 'escalate')": {
+      "no_op": 1.1865352682722505,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 3, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 1.1229433019027732,
+      "scale_up": 0.0,
+      "scale_down": 0.056249999999999994,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0825,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.4254685843455177,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'clear_disk')": {
+      "no_op": 4.741112478547774,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.08001,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 1, 'clear_disk')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.3723638504996732,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'rollback')": {
+      "no_op": 0.0,
+      "restart_service": 1.6625604323013163,
+      "scale_up": 0.0,
+      "scale_down": 0.032340424203596264,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 0, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'no_op')": {
+      "no_op": -0.015457251991905709,
+      "restart_service": 0.017720391522640752,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 2.981872129279207
+    },
+    "(0, 1, 1, 'no_op')": {
+      "no_op": 0.8829648182648562,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 2.5255566559557963
+    },
+    "(0, 0, 0, 'escalate')": {
+      "no_op": 5.601003592498836,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.21969680061701718,
+      "clear_disk": 0.0,
+      "escalate": 1.6523986451092454
+    },
+    "(4, 0, 0, 'investigate')": {
+      "no_op": 0.48183343160620307,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'scale_up')": {
+      "no_op": 0.21534649932143213,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'scale_down')": {
+      "no_op": -0.0225,
+      "restart_service": 0.7211127770094066,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 2.4548035077417385,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 2, 'investigate')": {
+      "no_op": 2.837209023969549,
+      "restart_service": 0.0,
+      "scale_up": 0.2297326119839404,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 1, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 3.9325637078139133,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'no_op')": {
+      "no_op": 6.030808578387545,
+      "restart_service": 0.9486907625159096,
+      "scale_up": 1.2066197267682837,
+      "scale_down": 0.16503517992408778,
+      "rollback": 0.30089319587907054,
+      "investigate": 1.8470662740348978,
+      "clear_disk": 0.12852802586005677,
+      "escalate": 2.4928730863873017
+    },
+    "(2, 0, 0, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0825,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0825,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 1, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.09396499563741566,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 2.15171932580771,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 3, 'no_op')": {
+      "no_op": 1.836804449788608,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 3, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 3, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.08001,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'clear_disk')": {
+      "no_op": 0.4031553451413896,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.09801,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'no_op')": {
+      "no_op": 0.6401480207759497,
+      "restart_service": 0.0,
+      "scale_up": 0.0015764001635183488,
+      "scale_down": 0.0,
+      "rollback": 0.4327844394578191,
+      "investigate": 2.3586077322900647,
+      "clear_disk": 0.11490002728271473,
+      "escalate": 0.054258749999999994
+    },
+    "(1, 1, 1, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.34689176920261083,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 3.1756791703772187,
+      "scale_up": 0.12243740393311432,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.013903649999999998,
+      "escalate": 0.8375225551486745
+    },
+    "(3, 2, 3, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 3.108031644121851,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.7706229888279372
+    },
+    "(0, 0, 2, 'escalate')": {
+      "no_op": 2.303818195482841,
+      "restart_service": 0.5578866270275153,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'investigate')": {
+      "no_op": 6.075449132357718,
+      "restart_service": 0.0,
+      "scale_up": 0.01248874839262097,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.19978838345139405,
+      "clear_disk": 0.015121120509669569,
+      "escalate": 0.7823224853671479
+    },
+    "(0, 0, 1, 'restart_service')": {
+      "no_op": 0.7087401346854901,
+      "restart_service": 0.034486465297154795,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.08992125,
+      "investigate": 3.544220601491631,
+      "clear_disk": 0.006768729144304277,
+      "escalate": 0.32689036735736277
+    },
+    "(1, 0, 2, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 1.132146777540773,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 2, 'scale_down')": {
+      "no_op": 0.4026223063167623,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.12999,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'restart_service')": {
+      "no_op": 1.0010694080942397,
+      "restart_service": 0.15683384948104537,
+      "scale_up": 0.1470713111647544,
+      "scale_down": 0.14942441356174643,
+      "rollback": 0.0,
+      "investigate": 4.536735010138765,
+      "clear_disk": 0.0029699552259268513,
+      "escalate": 0.04316059927140684
+    },
+    "(4, 1, 1, 'scale_down')": {
+      "no_op": -0.008932499999999998,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 3, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 3, 'clear_disk')": {
+      "no_op": 0.15,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.05745735056774813,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.5631537997800936,
+      "clear_disk": 0.0,
+      "escalate": 4.0674505300785615
+    },
+    "(3, 0, 3, 'clear_disk')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.07928999999999999,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'rollback')": {
+      "no_op": 0.40699769668702457,
+      "restart_service": 0.0,
+      "scale_up": 0.15164355973836602,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 1.0231586287888594,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.2284112991771892
+    },
+    "(2, 1, 3, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 1.1556625364657451,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 3, 'no_op')": {
+      "no_op": 3.180660002133228,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.07872373353136727
+    },
+    "(3, 0, 3, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.4340033227183671,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 2, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.1234739089182997
+    },
+    "(6, 0, 2, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.03469082605176768,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 3, 'no_op')": {
+      "no_op": 0.055531193181280115,
+      "restart_service": 1.6059422568732147,
+      "scale_up": 0.0,
+      "scale_down": -0.041624999999999995,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 3, 'scale_down')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 3, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.9869820406271703,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 3, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.081,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 1.910565982708865,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 3, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 2.458637143892917,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 3, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.1037218797928763,
+      "scale_up": 0.12408885149061662,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 3, 'no_op')": {
+      "no_op": -0.041624999999999995,
+      "restart_service": 0.06936735949347345,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 1.8771043401399692,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'scale_up')": {
+      "no_op": 5.2679077185770895,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.9989080829587135,
+      "clear_disk": 0.0,
+      "escalate": 0.033299999999999996
+    },
+    "(1, 0, 0, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.7514884431400909,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 1.1901943452750954,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 0, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.4912868369982106
+    },
+    "(4, 0, 1, 'escalate')": {
+      "no_op": 0.2535482775240461,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 0, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 2.669203527393816,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.6851461401123189,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.6468319290787365,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.983915010445949,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.081,
+      "escalate": 0.0
+    },
+    "(0, 2, 3, 'no_op')": {
+      "no_op": 3.4328511308858234,
+      "restart_service": 0.1792612856215015,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.018,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'restart_service')": {
+      "no_op": 3.333265952348423,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.06739649999999998,
+      "investigate": 0.018,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'no_op')": {
+      "no_op": -0.0042749999999999976,
+      "restart_service": 2.963785828068114,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'escalate')": {
+      "no_op": 5.601540239314367,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.07928999999999999,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.018
+    },
+    "(3, 0, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 2.058001660002256,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 3.4873238089102854,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.018
+    },
+    "(3, 0, 0, 'escalate')": {
+      "no_op": 0.17208573337262656,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 1, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.031070683484333155,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'no_op')": {
+      "no_op": -0.02007,
+      "restart_service": 1.671425775947304,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 1, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 2, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 1.622554832323975,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'investigate')": {
+      "no_op": 5.303920939239016,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'scale_down')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.1528443455297652,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 2, 'no_op')": {
+      "no_op": 2.030246442379749,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 1, 'investigate')": {
+      "no_op": -0.0072031499999999984,
+      "restart_service": 1.3404455051803845,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'rollback')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.018,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 3, 'investigate')": {
+      "no_op": 0.38048826816126174,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 3, 'no_op')": {
+      "no_op": 0.058817463762565705,
+      "restart_service": 2.174937888182934,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.20223537454083784,
+      "clear_disk": 0.30621000095625,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.005120142719352457,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.8603113580312887
+    },
+    "(1, 1, 0, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.9382055372227035,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.7974112769849361,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 1.3661348291460058,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 1, 'scale_down')": {
+      "no_op": 0.551617818011247,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 1, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 3.026469531242126,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 2, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.16814326031536897,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.43540576096090544
+    },
+    "(5, 1, 2, 'escalate')": {
+      "no_op": -0.00044572500000000234,
+      "restart_service": 0.9891331147795288,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 2, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.23850055488760977,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 1, 'escalate')": {
+      "no_op": 0.08020687532349643,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 1, 'clear_disk')": {
+      "no_op": -0.0031197374999999985,
+      "restart_service": 0.037294358820943826,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 2, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.1569295963785062,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.35749213448250067,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 3, 'restart_service')": {
+      "no_op": -0.008596349999999999,
+      "restart_service": 2.3601549600374065,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.03691617657389672
+    },
+    "(0, 2, 3, 'clear_disk')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.1055415,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 2, 'investigate')": {
+      "no_op": 3.1649242926166803,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 3, 'no_op')": {
+      "no_op": 0.051599317012218475,
+      "restart_service": 2.7033018331092817,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 3, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.0782196323789432,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 3, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 3, 'no_op')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.858042550465045,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 3, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 3, 'scale_down')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 3, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.08692691894734997,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 3, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 3.5799702384271357,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 3, 'clear_disk')": {
+      "no_op": -0.011362499999999998,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 1, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 1.2573455248368988,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'no_op')": {
+      "no_op": -0.02007,
+      "restart_service": 1.421327018786973,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.1293458375005896
+    },
+    "(6, 1, 1, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.26602653985171804,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 2, 'no_op')": {
+      "no_op": 2.447846708012075,
+      "restart_service": 0.18751751162100944,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'investigate')": {
+      "no_op": -0.00044572500000000234,
+      "restart_service": 1.4004856116911573,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 1, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 1, 'restart_service')": {
+      "no_op": -0.02187042591796875,
+      "restart_service": 1.367272663613698,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 1, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 2, 'restart_service')": {
+      "no_op": -0.0022499999999999977,
+      "restart_service": 1.1828692665658773,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.7141067785749978,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 2, 'restart_service')": {
+      "no_op": 1.0052241998896623,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 2, 'escalate')": {
+      "no_op": 1.0632043258771102,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.3266539208865692,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 3, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.03194070119830088,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 3, 'no_op')": {
+      "no_op": 0.3204940356254974,
+      "restart_service": 1.4013555454612778,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.045,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 3, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.3560034808159182,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 3, 'clear_disk')": {
+      "no_op": -0.0022499999999999977,
+      "restart_service": 0.6499661521137531,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'scale_up')": {
+      "no_op": -0.0028862752499999975,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 3, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 3, 'restart_service')": {
+      "no_op": -0.002490974999999995,
+      "restart_service": 1.5630389478827476,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.018,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 3, 'rollback')": {
+      "no_op": -0.008596349999999999,
+      "restart_service": 0.1046990279532211,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 3, 'restart_service')": {
+      "no_op": 2.8642175405365737,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 0, 'escalate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 3, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.6031078342625615,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 2, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.13239270579500897,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 2, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 2.1916179235205235,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 2, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 2.5074731234797647,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 3, 'no_op')": {
+      "no_op": -0.0028679864624999996,
+      "restart_service": 1.003824822395757,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.14364439240275045,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 3, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.24709799404528063,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'scale_up')": {
+      "no_op": -0.0031197374999999985,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.136924075021012,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 0, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.49558798102486257,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 2.274926213850571,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 2.916954785431776,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.675202754855856,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 1, 'no_op')": {
+      "no_op": -0.018206335462406624,
+      "restart_service": 2.9738432385144296,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 0, 'scale_up')": {
+      "no_op": 1.0601866021473043,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.1534620644010085,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 3, 'no_op')": {
+      "no_op": 1.1175944448316115,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.8343189223888259,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.5457904163992724,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.8798640158046243
+    },
+    "(1, 1, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.5381327420384951,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 1, 'no_op')": {
+      "no_op": -0.004951349999999999,
+      "restart_service": 3.5124574013425756,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 1, 'scale_down')": {
+      "no_op": -0.0225,
+      "restart_service": 0.36119584129723814,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.6509392787633197,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 2, 'no_op')": {
+      "no_op": -0.009141458477359247,
+      "restart_service": 3.3637080793825493,
+      "scale_up": 0.0,
+      "scale_down": -0.0031470750000000018,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'no_op')": {
+      "no_op": 0.5908771519131432,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.9988427437540602
+    },
+    "(6, 1, 3, 'restart_service')": {
+      "no_op": 1.1746088802555044,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'scale_up')": {
+      "no_op": -0.005075721125338296,
+      "restart_service": 0.0034694230893442565,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'clear_disk')": {
+      "no_op": -0.005743495584528999,
+      "restart_service": 0.048037945847818675,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'clear_disk')": {
+      "no_op": 1.4267221950464104,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 0, 'no_op')": {
+      "no_op": -0.009409912874999999,
+      "restart_service": 3.134099626981576,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 3, 'clear_disk')": {
+      "no_op": -0.008596349999999999,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 3, 'escalate')": {
+      "no_op": -0.02211088744316547,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 3, 'scale_down')": {
+      "no_op": 0.15183944709955194,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 0, 'scale_down')": {
+      "no_op": 1.3032063281809667,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.7846242492570688,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 0, 'no_op')": {
+      "no_op": 0.45635393389767637,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 0, 'no_op')": {
+      "no_op": 3.4422898077703037,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 3, 'investigate')": {
+      "no_op": 0.24700364649194212,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'restart_service')": {
+      "no_op": -0.020107747144443498,
+      "restart_service": 1.3814561940631207,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.7165379008758036,
+      "escalate": 0.0
+    },
+    "(0, 1, 0, 'restart_service')": {
+      "no_op": 1.4582226249606496,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 1, 'escalate')": {
+      "no_op": 1.0675092517316327,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 2, 'no_op')": {
+      "no_op": -0.0022499999999999977,
+      "restart_service": 1.7345114284930192,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 2, 'scale_up')": {
+      "no_op": -0.021474843749999997,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 2, 'scale_up')": {
+      "no_op": 0.20198921422728286,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 2, 'clear_disk')": {
+      "no_op": -0.0018047843807445507,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 1, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.6473045905734366,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 3, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.8616177134863234,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'clear_disk')": {
+      "no_op": -0.0033128888849999994,
+      "restart_service": 0.2730919739903522,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.42094082203492716,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 2, 'restart_service')": {
+      "no_op": 2.919846410938016,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 0, 'no_op')": {
+      "no_op": -0.020420986162499998,
+      "restart_service": 3.3106168622725347,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 0, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.5092511595781397,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 1, 'rollback')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 2, 'restart_service')": {
+      "no_op": 0.28547799458520395,
+      "restart_service": 0.0,
+      "scale_up": 0.2071755916012599,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 1, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.8770236574156696,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 2, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.39394253012046976,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 3, 'restart_service')": {
+      "no_op": 0.43043380322000085,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.4202663494969046,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.04311244774809288
+    },
+    "(3, 2, 0, 'scale_down')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 1, 'no_op')": {
+      "no_op": 5.064252849595015,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'restart_service')": {
+      "no_op": -0.00042577158631141275,
+      "restart_service": 1.5225503967491987,
+      "scale_up": 0.0,
+      "scale_down": 0.011934139250807043,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'restart_service')": {
+      "no_op": -0.003401048357141275,
+      "restart_service": 1.3716557627805943,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 3, 'escalate')": {
+      "no_op": 0.3765395305012765,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'investigate')": {
+      "no_op": -0.003167780257823562,
+      "restart_service": 2.6766035483995307,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.4859009580831733,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.8977908313164236,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 2, 'restart_service')": {
+      "no_op": -0.008932499999999998,
+      "restart_service": 1.010309809543081,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.018
+    },
+    "(2, 2, 3, 'investigate')": {
+      "no_op": 0.005999789249999999,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 0, 'scale_up')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 0, 'no_op')": {
+      "no_op": -0.009267540843311032,
+      "restart_service": 2.3722255291261716,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 2.9073258027938413,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.961162390335366,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 2, 'restart_service')": {
+      "no_op": -0.0028862752499999975,
+      "restart_service": 0.31061890176466234,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'no_op')": {
+      "no_op": 0.09803524165014177,
+      "restart_service": 0.5858255421639124,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 0, 'scale_up')": {
+      "no_op": 0.05271581918659945,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'escalate')": {
+      "no_op": 0.41848119571904296,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 2, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.7929832405575675,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 3, 'restart_service')": {
+      "no_op": -0.0016415988749999956,
+      "restart_service": 1.0180549226678444,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 1, 'restart_service')": {
+      "no_op": 4.689632827419201,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 3, 'no_op')": {
+      "no_op": 1.5115532812884327,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'rollback')": {
+      "no_op": 0.247119263222637,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 1, 'investigate')": {
+      "no_op": -0.021628617187499997,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 2, 'scale_up')": {
+      "no_op": 0.023021136445574793,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'escalate')": {
+      "no_op": 0.7244600583951055,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'scale_up')": {
+      "no_op": -0.014015226716167574,
+      "restart_service": 0.10237049162086853,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 2, 'no_op')": {
+      "no_op": -0.005241181001243978,
+      "restart_service": 2.239740752290946,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'investigate')": {
+      "no_op": -0.011224282499999997,
+      "restart_service": 1.0646275081534209,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.04583130640913855,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 2, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 1.6336694574017505,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 2, 'scale_down')": {
+      "no_op": 0.03433840471145749,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 0, 'investigate')": {
+      "no_op": 1.035058033855823,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 0, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.8433915073700591,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 0, 'no_op')": {
+      "no_op": -0.00663324825115673,
+      "restart_service": 1.4845025418252134,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 0, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 1.7547041796157739,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 0, 'no_op')": {
+      "no_op": 2.231026025902846,
+      "restart_service": 0.01911652757671762,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'restart_service')": {
+      "no_op": -0.021759324609375,
+      "restart_service": 0.7835480556053396,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 2, 'investigate')": {
+      "no_op": -0.002490974999999995,
+      "restart_service": 2.5074445297495065,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 3, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 3, 'investigate')": {
+      "no_op": 0.413578303693061,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 3, 'investigate')": {
+      "no_op": 0.31863978697985856,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 2, 'escalate')": {
+      "no_op": 0.5746615654440335,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 2, 'restart_service')": {
+      "no_op": -0.005743495584528999,
+      "restart_service": 1.9175803079655134,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 3, 'restart_service')": {
+      "no_op": 0.9259233463848163,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 0, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 1, 'rollback')": {
+      "no_op": -0.013354239033281248,
+      "restart_service": 0.43601032537919177,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'restart_service')": {
+      "no_op": 0.48769293578627204,
+      "restart_service": 1.7144241478788698,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'investigate')": {
+      "no_op": 0.6105062500235446,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 2, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 1, 'restart_service')": {
+      "no_op": 4.313266618801551,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 0, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 2.2326224169102336,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'restart_service')": {
+      "no_op": 0.22536900109256439,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'restart_service')": {
+      "no_op": 0.46898759462334255,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 2, 'rollback')": {
+      "no_op": 0.020037135941511113,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 3, 'restart_service')": {
+      "no_op": 0.9986309637835233,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 1, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.40424431738116023,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 1, 'restart_service')": {
+      "no_op": -0.008537624999999998,
+      "restart_service": 1.071748122613512,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 3, 'escalate')": {
+      "no_op": 0.6463909255664395,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 3, 'escalate')": {
+      "no_op": 1.164361977395637,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 1, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.7043562989215915,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 3, 'restart_service')": {
+      "no_op": 3.1142627638467717,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 2, 'restart_service')": {
+      "no_op": -0.0013179365437499993,
+      "restart_service": 2.6141887078125494,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 2, 'investigate')": {
+      "no_op": 0.2663021978429875,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 2, 'rollback')": {
+      "no_op": 0.09638202649721737,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 2, 'escalate')": {
+      "no_op": 0.29190002587049113,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'restart_service')": {
+      "no_op": 0.37910546299644393,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'clear_disk')": {
+      "no_op": 0.2874498166687238,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'scale_up')": {
+      "no_op": 0.2354587816957603,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'investigate')": {
+      "no_op": -0.006965580802269406,
+      "restart_service": 0.7349307079666723,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 1, 'restart_service')": {
+      "no_op": 0.6976338244303566,
+      "restart_service": 0.45959739766618096,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 0, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.5843843544870653,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'scale_down')": {
+      "no_op": 0.07273206253219257,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 2, 'investigate')": {
+      "no_op": 0.6447787636089339,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 3, 'escalate')": {
+      "no_op": 0.11608523310332795,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 1, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.6479819690337371,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'rollback')": {
+      "no_op": 0.29603346063015473,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 1, 'investigate')": {
+      "no_op": 1.9774589716170157,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 1, 'escalate')": {
+      "no_op": 0.012421582887542346,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 0, 'investigate')": {
+      "no_op": 0.10642476446935806,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 0, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.6832277345697129
+    },
+    "(3, 0, 0, 'no_op')": {
+      "no_op": 1.0489724341181745,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 2, 'investigate')": {
+      "no_op": 0.6941364286108542,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 2, 'investigate')": {
+      "no_op": 0.015193046250000003,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 2, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.08448712120023695,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 3, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 2, 'rollback')": {
+      "no_op": 0.10140577470829423,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 0, 'escalate')": {
+      "no_op": -0.020929250085381854,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 2, 'escalate')": {
+      "no_op": 0.8090542751481802,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 2, 'escalate')": {
+      "no_op": 0.3144219459622643,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 0, 'clear_disk')": {
+      "no_op": 0.5327841610054093,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 2, 'escalate')": {
+      "no_op": 0.2091261110748397,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 3, 'escalate')": {
+      "no_op": 0.04464514387066499,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 3, 'scale_up')": {
+      "no_op": 0.1142529865921522,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 2, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.7684652356734609,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 3, 'restart_service')": {
+      "no_op": 1.0348828645698425,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 1, 'escalate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 0, 'scale_down')": {
+      "no_op": -0.020745395406670506,
+      "restart_service": 1.2357495593248553,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 1, 'escalate')": {
+      "no_op": -0.002474914711272652,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 1, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 1.2518049938709925,
+      "scale_up": 0.680238443140091,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'rollback')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 0, 'investigate')": {
+      "no_op": 0.6279753706460764,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 1, 'scale_down')": {
+      "no_op": 0.03639143445081442,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 1.9513348782997748,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 0, 'restart_service')": {
+      "no_op": 0.9129569320405599,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'clear_disk')": {
+      "no_op": -0.01114523970575536,
+      "restart_service": 0.23335837377300053,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 2, 'investigate')": {
+      "no_op": -0.0225,
+      "restart_service": 0.6326183052836843,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 0, 'investigate')": {
+      "no_op": 0.031487184262039634,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 0, 'investigate')": {
+      "no_op": 2.1781618358199344,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 3, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.018
+    },
+    "(2, 0, 3, 'escalate')": {
+      "no_op": 0.15507524040004658,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 2, 'clear_disk')": {
+      "no_op": 0.0501387344022539,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'rollback')": {
+      "no_op": 0.7163544742664596,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 0, 'no_op')": {
+      "no_op": 4.769411062315447,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.20136385049967317,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 2, 'restart_service')": {
+      "no_op": 0.806392069570089,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.0225,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 2, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 1.3541298858167652
+    },
+    "(1, 1, 3, 'investigate')": {
+      "no_op": 0.38174260760724626,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 0, 'restart_service')": {
+      "no_op": 0.007996390388024865,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'clear_disk')": {
+      "no_op": -0.0031197374999999985,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 0, 'rollback')": {
+      "no_op": 0.13783621327855744,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 1, 'investigate')": {
+      "no_op": 1.2615078221800236,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 0, 'escalate')": {
+      "no_op": 0.25003584248483113,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 1, 'investigate')": {
+      "no_op": 4.911129067686052,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.029243798281742204
+    },
+    "(3, 1, 2, 'escalate')": {
+      "no_op": 0.31765844126846887,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'scale_up')": {
+      "no_op": 0.32039283521011713,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 2, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.004964068357569341,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 2, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 3.4271273023874294
+    },
+    "(1, 1, 3, 'restart_service')": {
+      "no_op": 0.6689962445435906,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'restart_service')": {
+      "no_op": 0.669039270064645,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 3, 'clear_disk')": {
+      "no_op": 0.08055828861802054,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 3, 'escalate')": {
+      "no_op": 0.7066302122485117,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 2, 'escalate')": {
+      "no_op": 0.6980361880415011,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 0, 'rollback')": {
+      "no_op": -0.0225,
+      "restart_service": 0.36119584129723814,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 0, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 0.6946181194409655,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 0, 'escalate')": {
+      "no_op": 0.6071329510634003,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 0, 'scale_down')": {
+      "no_op": 0.01394702732118345,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 1, 'scale_up')": {
+      "no_op": 0.8693838756239215,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'escalate')": {
+      "no_op": 0.07304147608449514,
+      "restart_service": 0.7086985798794198,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 0, 'restart_service')": {
+      "no_op": 0.11609984376448164,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 1, 'investigate')": {
+      "no_op": 0.7600955978995034,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'clear_disk')": {
+      "no_op": 0.03034297527935353,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'escalate')": {
+      "no_op": -0.016425,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 0, 'investigate')": {
+      "no_op": 0.1329532818054897,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 2, 'escalate')": {
+      "no_op": 0.4866552906136364,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'clear_disk')": {
+      "no_op": -0.02187042591796875,
+      "restart_service": 0.5535472811086972,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 2, 'rollback')": {
+      "no_op": 0.20586373251572587,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'escalate')": {
+      "no_op": 0.14624660610999501,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": -0.02007,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'rollback')": {
+      "no_op": 0.24051670849526535,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 1, 'restart_service')": {
+      "no_op": -0.022421834321182017,
+      "restart_service": 1.6170211074337417,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 1, 'scale_down')": {
+      "no_op": -0.014296185687408246,
+      "restart_service": 0.3150417617346447,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 0, 'clear_disk')": {
+      "no_op": 0.0480831740284573,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 0, 'restart_service')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 1.737127786123533,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 0, 'investigate')": {
+      "no_op": 0.8658719036088206,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 3, 'rollback')": {
+      "no_op": 0.06958471546463388,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 0, 'clear_disk')": {
+      "no_op": 0.9916630284142948,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.22429361426819727,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 1, 'investigate')": {
+      "no_op": 0.9447021553171102,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 2, 'escalate')": {
+      "no_op": -0.013584281444903647,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'investigate')": {
+      "no_op": 0.9466765588200933,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 1, 'restart_service')": {
+      "no_op": 0.12818028613341703,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'investigate')": {
+      "no_op": 0.7347927666308991,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 1, 'rollback')": {
+      "no_op": 0.06770382493990246,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 2, 'scale_down')": {
+      "no_op": 0.14097989698631053,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 1, 'clear_disk')": {
+      "no_op": 0.12818028613341703,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 2, 'clear_disk')": {
+      "no_op": -0.0225,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'clear_disk')": {
+      "no_op": 0.18722374590726804,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'scale_up')": {
+      "no_op": 0.13294295986033408,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 0, 'restart_service')": {
+      "no_op": -0.0225,
+      "restart_service": 0.12220697598560767,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 0, 'no_op')": {
+      "no_op": 0.0003849176883549285,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 1.7281922964871206,
+      "escalate": 0.0
+    },
+    "(1, 2, 1, 'restart_service')": {
+      "no_op": 0.6027127573730564,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 1, 'scale_up')": {
+      "no_op": 0.2580254079583399,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 2, 'restart_service')": {
+      "no_op": 0.2127785879150224,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 2, 'rollback')": {
+      "no_op": 0.1406507867510672,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 3, 'restart_service')": {
+      "no_op": 0.9144908288875498,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 0, 'restart_service')": {
+      "no_op": 1.391035327501009,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 0, 'clear_disk')": {
+      "no_op": 0.08657475383023358,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 1, 'scale_down')": {
+      "no_op": 0.9511458644709306,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'escalate')": {
+      "no_op": 0.8612476428779717,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'clear_disk')": {
+      "no_op": 0.2223104349853512,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 0, 'scale_up')": {
+      "no_op": 0.09250924735274793,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 1, 'escalate')": {
+      "no_op": -0.0047126800587657235,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'rollback')": {
+      "no_op": 0.2918200146802287,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 0, 'scale_down')": {
+      "no_op": 0.3867150219860726,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 0, 'restart_service')": {
+      "no_op": 0.5973035967950495,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 1, 'rollback')": {
+      "no_op": 0.8967154927706716,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 3, 'investigate')": {
+      "no_op": 0.15982594049422352,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 3, 'rollback')": {
+      "no_op": 0.03721831132177105,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 3, 'escalate')": {
+      "no_op": 0.7249558573464879,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'scale_up')": {
+      "no_op": 0.12216135472744702,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 0, 'restart_service')": {
+      "no_op": 0.8184224565215337,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 3, 'restart_service')": {
+      "no_op": 0.8738797491239395,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 2, 3, 'investigate')": {
+      "no_op": 0.6634008596206593,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'scale_down')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 3, 'investigate')": {
+      "no_op": 0.158964914756452,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'investigate')": {
+      "no_op": 0.49619292790155123,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 3, 'rollback')": {
+      "no_op": 0.4712882953438513,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'escalate')": {
+      "no_op": 0.5141419011676278,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 0, 'scale_down')": {
+      "no_op": -0.0014384510957377082,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 3, 'escalate')": {
+      "no_op": 0.31455903125259904,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 2, 'restart_service')": {
+      "no_op": 0.3310301420292754,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 0, 'scale_down')": {
+      "no_op": 0.19037333168717413,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 0, 1, 'escalate')": {
+      "no_op": 0.21386114889828994,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'escalate')": {
+      "no_op": 0.02205706040681984,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 0, 'no_op')": {
+      "no_op": -0.0225,
+      "restart_service": 1.602098158097045,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 3, 'escalate')": {
+      "no_op": 0.2801138013626077,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 1, 'investigate')": {
+      "no_op": 0.012421582887542346,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 3, 'investigate')": {
+      "no_op": 0.6476349569966268,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'investigate')": {
+      "no_op": 0.17539419152103602,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 0, 'clear_disk')": {
+      "no_op": 0.12944973550751562,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 3, 'scale_down')": {
+      "no_op": 0.30388322044737826,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 1, 'escalate')": {
+      "no_op": 0.11598042272690579,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'scale_down')": {
+      "no_op": 0.23997130463348895,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 0, 1, 'scale_down')": {
+      "no_op": 0.8738547365109521,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'clear_disk')": {
+      "no_op": 0.28240218073386303,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 1, 'escalate')": {
+      "no_op": 0.6070866976832306,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 0, 1, 'rollback')": {
+      "no_op": 0.1819685955855095,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 2, 'clear_disk')": {
+      "no_op": -0.0076834956058162195,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 1, 'restart_service')": {
+      "no_op": 0.34687463305447974,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 2, 'scale_up')": {
+      "no_op": 0.010123479207685682,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 2, 'investigate')": {
+      "no_op": 0.2994757249229128,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 2, 'rollback')": {
+      "no_op": 0.1759550147483595,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 3, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.3523490634700394,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 1, 'clear_disk')": {
+      "no_op": 0.9276636429593037,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 2, 'investigate')": {
+      "no_op": 0.09136230568544532,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 0, 'restart_service')": {
+      "no_op": 0.4293456134383858,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 1, 1, 'scale_up')": {
+      "no_op": 0.05466816556501053,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 1, 'rollback')": {
+      "no_op": 0.003150077721134431,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 3, 'restart_service')": {
+      "no_op": 0.10005790306075919,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 2, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 2, 2, 'scale_up')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 0, 'escalate')": {
+      "no_op": 0.048827682494731545,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 0, 3, 'investigate')": {
+      "no_op": 0.06769418139497223,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 2, 'escalate')": {
+      "no_op": 0.4307888453711484,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 2, 1, 'clear_disk')": {
+      "no_op": 0.6022347413601509,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 0, 'investigate')": {
+      "no_op": 0.31732113448223115,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 1, 'escalate')": {
+      "no_op": 0.6449851704950045,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 2, 'scale_down')": {
+      "no_op": 0.4408603451877445,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 1, 'scale_up')": {
+      "no_op": 0.26352171578067535,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 2, 'scale_down')": {
+      "no_op": 0.24042146613748813,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 3, 'scale_down')": {
+      "no_op": 0.06656002514529065,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 1, 'clear_disk')": {
+      "no_op": 0.9475673473411312,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(1, 1, 0, 'escalate')": {
+      "no_op": 0.630433780804118,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 0, 3, 'investigate')": {
+      "no_op": 0.7134529202414559,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 2, 'escalate')": {
+      "no_op": 0.1784652982663464,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 2, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 0, 2, 'clear_disk')": {
+      "no_op": 0.14547492842982582,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'escalate')": {
+      "no_op": 0.35383511744604007,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 2, 'escalate')": {
+      "no_op": 0.362677192412329,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 1, 'rollback')": {
+      "no_op": 0.31796288661717514,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 2, 2, 'investigate')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 1, 'rollback')": {
+      "no_op": 0.22892182971230499,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 1, 2, 'rollback')": {
+      "no_op": 0.16775468729279738,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(5, 1, 0, 'clear_disk')": {
+      "no_op": 0.11572580689105333,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(2, 0, 3, 'restart_service')": {
+      "no_op": 0.3773508693094766,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 1, 2, 'scale_up')": {
+      "no_op": 0.12144154672894594,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 1, 3, 'escalate')": {
+      "no_op": 0.24401732049946798,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(6, 2, 1, 'escalate')": {
+      "no_op": 0.4157184669658087,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(0, 1, 2, 'clear_disk')": {
+      "no_op": 0.0,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(4, 2, 1, 'investigate')": {
+      "no_op": 0.11271400960934455,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    },
+    "(3, 2, 3, 'escalate')": {
+      "no_op": 0.3792862934309115,
+      "restart_service": 0.0,
+      "scale_up": 0.0,
+      "scale_down": 0.0,
+      "rollback": 0.0,
+      "investigate": 0.0,
+      "clear_disk": 0.0,
+      "escalate": 0.0
+    }
+  },
+  "epsilon": 0.05,
+  "update_count": 6000
+}
